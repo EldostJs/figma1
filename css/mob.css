@@ -1,0 +1,105 @@
+body{
+    width: 360px;
+    height: 2205px;
+    background-color: #E5E5E5;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 36px;
+    margin-top: 25px;
+    margin-right: 36px;
+}
+header img{
+    width: 68px;
+    height: 40px;
+}
+.card {
+    margin-top: 37px;
+    text-align: center;
+}
+.card img{
+    width: 325px;
+    height: 235px;
+}
+.text{
+    margin-top: 28px;
+    margin-left: 36px;
+    width: 291px;
+    height: 235px;
+    text-align: center;
+}
+.text h1{
+    width: 276px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.text p{
+    width: 291px;
+    height: 109px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.but{
+    margin-left: 72px;
+}
+.but button{
+    width: 219px;
+    height: 64px;
+    background-color: #71A894;
+    border: none;
+    border-radius: 8px;
+}
+button a{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+.text2 {
+    margin-top: 94px;
+    margin-left: 34px;
+    margin-right: 35px;
+    text-align: center;
+}
+.text2 h2{
+    padding-left: 12px;
+    width: 266px;
+    height: 87px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.text2 p{
+    width: 291px;
+    height: 109px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card2 div{
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    width: 319px;
+    height: 287px;
+    background-color: white;
+    border-radius: 8px;
+}
+.card2 img{
+    width: 104px;
+    height: 88px;
+    padding-top: 44px;
+}
+.card2 h3{
+    padding-left: 66px;
+    width: 199px;
+    height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card2 p{
+    width: 310px;
+    height: 73px;
+    font-size: 18px;
+    font-weight: 400;
+}

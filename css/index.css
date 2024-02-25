@@ -1,0 +1,482 @@
+body{
+    background-color: #F3F0EA;
+}
+nav{
+    display: flex;
+    justify-content: space-between ;
+    width: 1440px;
+    height: 107px;
+}
+.nav1{
+    display: flex;
+    justify-content: start;
+}
+.nav2{
+    display: flex;
+    justify-content: end;
+    margin: 23px 49px 44px 0;
+}
+.nav1 img{
+    width: 68px;
+    height: 40px;
+    padding: 32px 0 34px 31px;
+}
+.nav1 p{
+    padding-left: 10px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.nav1 a{
+    text-decoration: none;
+    color: black;
+}
+.nav2 p{
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: 900;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+}
+.a2 {
+    color: #71A894;
+    text-decoration: none;
+}
+.hrr {
+    border: #71A894 solid;
+}
+.mood{
+    display: flex;
+    margin-top: 46px;
+}
+.mood img{
+    width: 733px;
+    height: 720px;
+}
+.text{
+    padding-left: 77px;
+    padding-top: 92px;
+    padding-right: 31px;
+    width: 608px;
+    height: 248px;
+}
+h1{
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text p{
+    font-size: large;
+    width: 400px;
+    color: gray;
+}
+.but{
+    margin-left: -46px;
+    margin-top: 105px;
+}
+.but button{
+    width: 219px;
+    height: 64px;
+    background-color: #71A894;
+    border-radius: 10px;
+    border: none;
+}
+button a{
+    color: wheat;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: medium;
+}
+.text2 h2{
+    margin-top: 187px;
+    margin-left: 380px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.text2 p{
+    margin-top: 24px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+.card{
+    text-align: center;
+    background-color: white;
+    border: none;
+    width: 427px;
+    height: 340;
+    box-shadow: 5px 5px 5px gray;
+}
+.card img{
+    padding-top: 64px
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.card p{
+    width: 379px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.cards2 {
+    display: flex;
+    margin-top: 193px;
+    margin-left: 56px;
+}
+.cards2 h2{
+    width: 644px;
+    height: 128px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.cards2 h5{
+    width: 644px;
+    height: 78px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.member{
+    display: flex;
+    margin-left: 138px;
+    border: solid;
+    border-radius: 30px;
+    width: 484px;
+    height: 400px;
+    background-color: white;
+}
+.member img{
+    margin-left: 40px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+.member h3{
+    margin-left: 50px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.card2 h4{
+    margin-left: 130px;
+    margin-top: -60px;
+    color: gray;
+}
+.card2 p{
+    margin-left: 130px;
+}
+.cards3{
+    display: flex;
+    margin-top: 131px;
+    margin-left: 80px;
+}
+.card33{
+    border: solid;
+    border-radius: 16px;
+    background-color: white;
+    width: 900px;
+    height: 412px;
+}
+.text3{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -55px;
+}
+.text3 h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+}
+.text4{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -55px;
+}
+.text4 p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.card31 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.car31{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 32px;
+}
+.imgh3{
+    margin-left: -118px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 250;
+    color: gray;
+}
+.car31 h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.text5{
+    padding-left: 40px;
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.but2{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.but2 button{
+    width: 404px;
+    height: 48px;
+    background-color: black;
+    border-radius: 16px;
+}
+.card3{
+    margin-left: 178px;
+}
+.card3 h3{
+    font-size: 48px;
+    font-weight: 800;
+}
+.card3 p{
+    font-size: 18px;
+    font-weight: 400px;
+}
+.cards4 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 56px;
+    margin-top: 242px;
+}
+.card4{
+    width: 664px;
+    height: 334px;
+}
+.card4 h3{
+    font-size: 48px;
+    font-weight: 800;
+}
+.card4 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.card5{
+    border: solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 130px;
+    margin-left: 35px;
+    margin-right: 57px;
+}
+.card5 h5{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-top: 7px;
+}
+.card5 button{
+    background-color: #71A894;
+    border-radius: 40px;
+    border: none;
+    width: 79px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.but3{
+    padding-left: 500px;
+    margin-top: -60px;
+}
+.card5 p{
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-top: 5px;
+    width: 450px;
+}
+.cards6{
+    display: flex;
+    justify-content: end;
+}
+.card6{
+    border: solid;
+    border-radius: 16px;
+    width: 350px;
+    height: 288px;
+    background-color: rgb(216, 216, 216);
+    padding-left: 90px;
+    margin-top: -190px;
+}
+.card6 h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: -50px;
+}
+.card6 p{
+    padding-left: 10px;
+    margin-top: -40px;
+    font-size: 20px;
+    font-weight: 250;
+    color: gray;
+}
+.card6 img{
+    margin-left: -50px;
+    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.card7{
+    border: solid;
+    border-radius: 16px;
+    width: 240px;
+    height: 288px;
+    margin-left: 20px;
+    margin-top: -190px;
+    text-align: center;
+}
+.card7 img{
+    padding-top: 10px;
+}
+.card7 h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card7 p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.card7 button{
+    background-color: black;
+    border-radius: 16px;
+    width: 220px;
+    height: 40px;
+}
+.text6{
+    margin-top: 160px;
+    text-align: center;
+}
+.text6 h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+.text6 p{
+    width: 895px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 290px;
+}
+.cards7{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 52px;
+}
+.card8{
+    text-align: left;
+    width: 427px;
+    height: 216px;
+    margin-left: 28px;
+    border: solid;
+    border-radius: 16px;
+    background-color: white;
+}
+.card8 h3{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 24px;
+    padding-top: 18px;
+}
+.card8 p{
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 24px;
+    padding-top: 16px;
+}
+.card8 button{
+    background-color: #71A894;
+    border-radius: 40px;
+    border: none;
+    margin-left: 24px;
+    margin-top: 18px;
+    width: 90px;
+    height: 32px;
+}
+.view{
+    text-align: center;
+    margin-top: 64px;
+}
+.view button{
+    background-color: black;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+.start{
+    display: flex;
+    margin-top: 168px;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+.start img{
+    width: 644px;
+    height: 361px;
+    padding-left: 40px;
+}
+.start h2{
+    width: 644px;
+    height: 64px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.start p{
+    width: 644px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.start button{
+    width: 219px;
+    height: 64px;
+    margin-top: 40px;
+    background-color: #71A894;
+    border: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 126px;
+}
+footer div{
+    display: flex;
+    padding: 0 40px 0 40px;
+}
+footer h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+.links p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+}
+.aa a{
+    color: #71A894;
+}
