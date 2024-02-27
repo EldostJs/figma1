@@ -1,0 +1,197 @@
+@media screen and (max-width: 576px){
+    .mood{
+
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: -10px;
+
+    }
+    nav{
+       display: none;
+    }
+    .text{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+  
+    .text h1{
+        text-align: center;
+        margin-top: -100px;
+        font-size: 20px;
+    }
+    .text p{
+        text-align: center;
+        width: 100%;
+    }
+    .text2 h2{
+        font-size: 20px;
+        width: 90%;
+    }
+    .text2 p{
+        font-size: 10px;
+        width: 90%;
+    }
+    .cards{
+
+        display: flex;
+        flex-flow: column;
+        gap: 2rem;
+    }
+    .cards2{
+        display: flex;
+        flex-flow: column;
+    }
+    .card{
+
+        width: 100%;
+    }
+    .card p{
+        width: 90%;
+    }
+    .card1 h2{
+        font-size: 20px;
+        width: 75%;
+    }
+    .card1 h5{
+        margin-top: -50px;
+        width: 75%;
+        font-size: 15px;
+    }
+    .member{
+
+        margin-top: 4rem;
+        width: 90%;
+    }
+    .member h3{
+        font-size: 20px;
+    }
+    .cards3 {
+        width: 90%;
+        margin-left: -50px;
+        display: flex;
+        flex-flow: column;
+    }
+    .card33{
+        width: 100%;
+        margin-left: 70px;
+    }
+    .car31 h3{
+        padding-left: 20px;
+    }
+    .text5{
+        width: 70%;
+    }
+    .but2{
+        margin-top: -15px;
+    }
+    .card3{
+        padding-top: 2rem;
+        margin-left: 50px;
+        width: 100%;
+    }
+    .card3 h3{
+        font-size: 20px;
+    }
+    .cards4{
+        gap: 2rem;
+        display: flex;
+        flex-flow: column;
+    }
+    .card4{
+        width: 100%;
+    }
+    .card4 h3{
+        font-size: 20px;
+        width: 50%;
+    }
+    .card4 p{
+        width: 50%;
+    }
+    .card5{
+
+        width: 100%;
+        margin-left: -35px;
+    }
+    .card5 h5{
+        width: 50%;
+        margin-left: -30px;
+        margin-top: -1.9px;
+    }
+    .card5 p{
+        width: 75%;
+        margin-left: -30px;
+    }
+    .but3{
+        width: 30%;
+        margin-left: -210px;
+    }
+    .cards6{
+
+        margin-top: 15rem;
+        display: flex;
+        flex-flow: column;
+    }
+    .cards6{
+        gap: 15rem;
+    }
+    .text6 h2{
+        margin-left: 50px;
+        font-size: 20px;
+        width: 50%;
+    }
+    .text6 p{
+        width: 80%;
+        margin-left: -290px;
+    }
+    .cards7{
+
+        display: flex;
+        flex-flow: column;
+        gap: 3rem;
+    }
+    .card8{
+        margin-left: -30px;
+        width: 90%;
+    }
+    .card8 h3{
+        margin-top: -5px;
+    }
+    .card8 p{
+        margin-top: -10px;
+    }
+    .card88{
+        margin-top: -15px;
+    }
+    .start{
+        display: flex;
+        flex-flow: column;
+    }
+    .start h2{
+        font-size: 20px;
+    }
+    .start p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .start img{
+        width: 100%;
+        margin-left: -50px;
+        padding-top: 20px;
+    }
+    footer{
+        display: flex;
+        flex-flow: column;
+    }
+    footer div{
+        display: flex;
+        flex-flow: column;
+    }
+}
+@media screen and (min-width: 577px){
+    .icon{
+        display: none;
+    }
+}

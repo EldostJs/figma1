@@ -6,6 +6,7 @@ nav{
     justify-content: space-between ;
     width: 1440px;
     height: 107px;
+    border-bottom: 1px solid black;
 }
 .nav1{
     display: flex;
@@ -51,19 +52,16 @@ nav{
     margin-top: 46px;
 }
 .mood img{
-    width: 733px;
-    height: 720px;
+    width: 100%;
 }
 .text{
     padding-left: 77px;
     padding-top: 92px;
     padding-right: 31px;
-    width: 608px;
-    height: 248px;
 }
 h1{
     font-size: 65px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Robot", sans-serif;
 }
 .text p{
     font-size: large;
@@ -82,20 +80,22 @@ h1{
     border: none;
 }
 button a{
-    color: wheat;
+    color: white;
     text-decoration: none;
     font-weight: 900;
     font-size: medium;
 }
+.text2{
+    width: 100%;
+    justify-content: center;
+}
 .text2 h2{
-    margin-top: 187px;
-    margin-left: 380px;
+    width: 75%;
+    text-align: center;
     font-size: 48px;
     font-weight: 800;
 }
 .text2 p{
-    margin-top: 24px;
-    margin-left: 350px;
     margin-right: 350px;
     font-size: 18px;
     font-weight: 400;
@@ -133,8 +133,8 @@ button a{
 }
 .cards2 {
     display: flex;
-    margin-top: 193px;
-    margin-left: 56px;
+    justify-content: space-around;
+     margin-top: 50px;
 }
 .cards2 h2{
     width: 644px;
@@ -150,7 +150,6 @@ button a{
 }
 .member{
     display: flex;
-    margin-left: 138px;
     border: solid;
     border-radius: 30px;
     width: 484px;
@@ -239,11 +238,13 @@ button a{
     padding-right: 40px;
     padding-top: 20px;
 }
-.but2 button{
-    width: 404px;
-    height: 48px;
+.but2 a{
     background-color: black;
-    border-radius: 16px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
 }
 .card3{
     margin-left: 178px;
@@ -432,8 +433,7 @@ button a{
     margin-right: 56px;
 }
 .start img{
-    width: 644px;
-    height: 361px;
+    width: 100%;
     padding-left: 40px;
 }
 .start h2{
@@ -479,4 +479,16 @@ footer h3{
 }
 .aa a{
     color: #71A894;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.text a{
+    background-color: #71A894;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: white;
 }
