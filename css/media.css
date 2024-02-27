@@ -28,11 +28,12 @@
     }
     .text2 h2{
         font-size: 20px;
-        width: 90%;
+        width: 100%;
     }
     .text2 p{
         font-size: 10px;
-        width: 90%;
+        width: 50%;
+        padding-left: 110px;
     }
     .cards{
 
@@ -45,23 +46,29 @@
         flex-flow: column;
     }
     .card{
-
-        width: 100%;
+        margin-left: 15px;
+        width: 90%;
     }
     .card p{
         width: 90%;
     }
+    .card1 img{
+        padding-left: 130px;
+    }
     .card1 h2{
+        padding-left: 50px;
         font-size: 20px;
         width: 75%;
+        text-align: center;
     }
     .card1 h5{
+        padding-left: 50px;
         margin-top: -50px;
         width: 75%;
         font-size: 15px;
     }
     .member{
-
+        margin-left: 15px;
         margin-top: 4rem;
         width: 90%;
     }
@@ -75,6 +82,7 @@
         flex-flow: column;
     }
     .card33{
+        margin-top: -90px;
         width: 100%;
         margin-left: 70px;
     }
@@ -92,8 +100,16 @@
         margin-left: 50px;
         width: 100%;
     }
+    .card3 img{
+        padding-left: 130px;
+    }
     .card3 h3{
+        text-align: center;
+        margin-left: 15px;
         font-size: 20px;
+    }
+    .card3 p{
+        margin-left: 10px;
     }
     .cards4{
         gap: 2rem;
@@ -101,14 +117,22 @@
         flex-flow: column;
     }
     .card4{
-        width: 100%;
+        margin-top: -190px;
+        width: 90%;
+    }
+    .card4 img{
+        padding-left: 70px;
     }
     .card4 h3{
+        margin-left: 10px;
+        text-align: center;
         font-size: 20px;
-        width: 50%;
+        width: 70%;
     }
     .card4 p{
-        width: 50%;
+        margin-left: -15px;
+        text-align: center;
+        width: 90%;
     }
     .card5{
 
@@ -117,19 +141,24 @@
     }
     .card5 h5{
         width: 50%;
+        font-size: 15px;
         margin-left: -30px;
         margin-top: -1.9px;
     }
     .card5 p{
+        margin-top: -1px;
         width: 75%;
         margin-left: -30px;
     }
     .but3{
         width: 30%;
-        margin-left: -210px;
+        margin-left: -270px;
+    }
+    .card6{
+        margin-left: 35px;
+        width: 50%;
     }
     .cards6{
-
         margin-top: 15rem;
         display: flex;
         flex-flow: column;
@@ -137,20 +166,27 @@
     .cards6{
         gap: 15rem;
     }
+    .text6{
+        margin-top: -0.5px;
+    }
     .text6 h2{
-        margin-left: 50px;
+        margin-left: 70px;
         font-size: 20px;
         width: 50%;
     }
     .text6 p{
         width: 80%;
-        margin-left: -290px;
+        margin-left: -270px;
     }
     .cards7{
 
         display: flex;
         flex-flow: column;
         gap: 3rem;
+    }
+    .card7{
+        background-color: white;
+        margin-left: 50px;
     }
     .card8{
         margin-left: -30px;
@@ -171,6 +207,7 @@
     }
     .start h2{
         font-size: 20px;
+        width: 100%;
     }
     .start p{
         width: 100%;
